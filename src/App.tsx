@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 
 export default function App() {
-  const [activeToolkit, setActiveToolkit] = useState(0);
+  const [activeToolkit, setActiveToolkit] = useState<number | null>(0);
   const [wssiPhase, setWssiPhase] = useState('risk');
   const [activeRangeStep, setActiveRangeStep] = useState(0);
   const [dashboardView, setDashboardView] = useState('overview');
