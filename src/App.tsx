@@ -154,7 +154,7 @@ export default function App() {
             
             <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-neutral-100 flex shadow-xl group">
               <img 
-                src="hero-image.png" 
+                src="/hero-image.png" 
                 alt="Curated Assortments Hero"
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-1000 ease-out"
                 onError={(e) => {
